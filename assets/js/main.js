@@ -1078,7 +1078,7 @@ async function main(canvas) {
         sceneRunner.runNext();
     }
 
-    const ups = 30;
+    const ups = 60;
 	const timer = new Timer(1/ups);
 	timer.update = function update(deltaTime) {
 		gameCtx.deltaTime = deltaTime;
