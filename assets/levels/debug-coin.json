@@ -1,0 +1,51 @@
+{
+	"spriteSheet": "overworld",
+    "musicSheet": "overworld",
+    "patternSheet": "overworld-pattern",
+    "leveldepth": 212,
+    "playerY": 192,
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 212,
+                            0, 13
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [
+                            0, 212,
+                            13, 2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+        	"tiles": [
+                {
+                    "name": "coin",
+                    "type": "coin",
+                    "ranges": [
+                        [5, 50, 7, 6]
+                    ]
+                },
+                {
+                    "name": "chance",
+                    "type": "chanceCoin",
+                    "ranges": [
+                        [2, 10]
+                    ]
+                }
+        	]
+        }
+    ],
+    "entities": []
+}

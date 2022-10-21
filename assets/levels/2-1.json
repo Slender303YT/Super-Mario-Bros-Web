@@ -1,0 +1,221 @@
+{
+    "spriteSheet": "overworld",
+    "musicSheet": "overworld",
+    "patternSheet": "overworld-pattern",
+    "leveldepth": 212,
+    "playerX": 48,
+    "playerY": 192,
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 212,
+                            0, 13
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [
+                            0, 212,
+                            13, 2
+                        ]
+                    ]
+                },
+                {
+                    "name": "sky",
+                    "ranges": [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "cloud-single",
+                    "ranges": [
+                        [8, 3],
+
+                        [19, 2],
+
+                        [56, 3],
+
+                        [67, 2],
+
+                        [103, 3],
+
+                        [114, 2],
+
+                        [151, 3],
+
+                        [162, 2],
+
+                        [198, 3]
+                    ]
+                },
+                {
+                    "pattern": "cloud-two",
+                    "ranges": [
+                        [36, 2],
+
+                        [84, 2],
+
+
+                        [132, 2],
+
+                        [178, 2]
+                    ]
+                },
+                {
+                   "pattern": "cloud-three",
+                    "ranges": [
+                        [27, 2],
+
+                        [75, 3],
+
+                        [122, 3],
+
+                        [169, 3]
+                    ] 
+                },
+                {
+                    "pattern": "big-castle",
+                    "ranges": [
+                        [0, 2]
+                    ]
+                },
+                {
+                    "pattern": "plant3",
+                    "ranges": [
+                        [11, 11],
+                        [40, 11]
+                    ]
+                },
+                {
+                    "pattern": "plant4",
+                    "ranges": [
+                        [13, 10],
+                        [21, 10],
+                        [43, 10]
+                    ]
+                },
+                {
+                    "name": "fence",
+                    "ranges": [
+                        [14, 4, 12],
+                        [38, 2, 12],
+                        [41, 12]
+                    ]
+                },
+                {
+                    "name": "bricks-top",
+                    "type": "brick",
+                    "ranges": [
+                        [15, 9],
+                        [17, 9],
+                        [29, 3, 5]
+                    ]
+                },
+                {
+                    "name": "bricks-top",
+                    "type": "PB",
+                    "ranges": [
+                        [16, 9]
+                    ]
+                },
+                {
+                    "name": "bricks-top",
+                    "type": "P1UP2",
+                    "ranges": [
+                        [28, 5]
+                    ]
+                },
+                {
+                    "name": "invisible-chance",
+                    "type": "PC2",
+                    "ranges": [
+                        [28, 9]
+                    ]
+                },
+                {
+                    "animation": "chance",
+                    "type": "PC",
+                    "ranges": [
+                        [52, 5, 5],
+                        [53, 4, 9]
+                    ]
+                },
+                {
+                    "animation": "chance",
+                    "type": "PB",
+                    "ranges": [
+                        [52, 9]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "name": "chocolate",
+                    "type": "ground",
+                    "ranges": [
+                        [20, 5, 12],
+                        [21, 4, 11],
+                        [22, 3, 10],
+                        [23, 2, 9],
+                        [24, 8],
+                        [34, 1, 9, 4],
+                        [35, 1, 11, 2]
+                    ]
+                },
+                {
+                    "pattern": "pipe-4h",
+                    "ranges": [
+                        [46, 9]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "goomba",
+            "pos": [384, 112]
+        },
+        {
+            "name": "koopa",
+            "pos": [512, 192]
+        },
+        {
+            "name": "koopa",
+            "pos": [528, 192]
+        },
+        {
+            "name": "goomba",
+            "pos": [672, 192]
+        },
+        {
+            "name": "goomba",
+            "pos": [696, 192]
+        },
+        {
+            "name": "koopa",
+            "pos": [864, 128]
+        },
+        {
+            "name": "goomba",
+            "pos": [928, 192]
+        },
+        {
+            "name": "goomba",
+            "pos": [952, 192]
+        }
+    ]
+}

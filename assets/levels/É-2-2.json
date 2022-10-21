@@ -1,0 +1,188 @@
+{
+    "spriteSheet": "overworld",
+    "musicSheet": "overworld",
+    "patternSheet": "overworld-pattern",
+    "leveldepth": 212,
+    "playerX": 72,
+    "playerY": 160,
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 212,
+                            0, 13
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [
+                            0, 212,
+                            13, 2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "plant1-big",
+                    "ranges": [
+                        [0, 10],
+                        [48, 10],
+                        [96, 10],
+                        [143, 10],
+                        [190, 10]
+                    ]
+                },
+                {
+                    "pattern": "plant2-3w",
+                    "ranges": [
+                        [11, 12],
+                        [59, 12],
+                        [107, 12],
+                        [136, 12],
+                        [154, 12],
+                        [201, 12]
+                    ]
+                },
+                {
+                    "pattern": "plant1-tiny",
+                    "ranges": [
+                        [16, 11],
+                        [64, 11],
+                        [112, 11],
+                        [159, 11],
+                        [206, 11]
+                    ]
+                },
+                {
+                    "pattern": "plant2",
+                    "ranges": [
+                        [23, 12],
+                        [166, 12]
+                    ]
+                },
+                {
+                    "pattern": "plant2-2w",
+                    "ranges": [
+                        [41, 12],
+                        [71, 12],
+                        [89, 12],
+                        [119, 12]
+                    ]
+                },
+                {
+                    "pattern": "cloud-single",
+                    "ranges": [
+                        [8, 3],
+
+                        [19, 2],
+
+                        [56, 3],
+
+                        [67, 2],
+
+                        [103, 3],
+
+                        [114, 2],
+
+                        [151, 3],
+
+                        [162, 2],
+
+                        [198, 3]
+                    ]
+                },
+                {
+                    "pattern": "cloud-two",
+                    "ranges": [
+                        [36, 2],
+
+                        [84, 2],
+
+                        [132, 2],
+
+                        [178, 2]
+                    ]
+                },
+                {
+                   "pattern": "cloud-three",
+                    "ranges": [
+                        [27, 2],
+
+                        [75, 3],
+
+                        [122, 3],
+
+                        [169, 3]
+                    ] 
+                },
+                {
+                    "name": "chocolate",
+                    "type": "ground",
+                    "ranges": [
+                        [3, 2, 5],
+                        [9, 3, 5],
+                        [6, 4, 7],
+                        [11, 8, 1],
+                        [9, 6, 9],
+                        [2, 6, 2],
+                        [7, 8, 5],
+                        [6, 9, 12],
+
+                        [23, 1]
+                    ]
+                },
+                {
+                    "pattern": "goal",
+                    "ranges": [
+                        [23, 0]
+                    ]
+                },
+                {
+                    "pattern": "castle",
+                    "ranges": [
+                        [27, 8]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "pipe-2h",
+                    "ranges": [
+                        [4, 11]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "piranhaPlant",
+            "pos": [72, 176]
+        }
+    ],
+    "triggers": [
+        {
+            "name": "Æ-1",
+            "type": "goto",
+            "pos": [368, 48],
+            "size": [16, 160]
+        },
+        {
+            "name": "Æ-1",
+            "type": "goto",
+            "pos": [464, 192],
+            "size": [16, 16]
+        }
+    ]
+}

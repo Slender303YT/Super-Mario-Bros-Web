@@ -1,0 +1,267 @@
+{
+    "spriteSheet": "underworld",
+    "musicSheet": "underwater",
+    "patternSheet": "underworld-pattern",
+    "leveldepth": 212,
+    "playerX": 48,
+    "playerY": 48,
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 212,
+                            0, 13
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [
+                            0, 212,
+                            13, 2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "name": "bricks",
+                    "type": "brick",
+                    "ranges": [
+                        [6, 134, 2],
+                        [163, 6, 2],
+                        [0, 1, 7, 2],
+
+                        [40, 1, 7, 2],
+                        [41, 5],
+                        [42, 7, 7, 2],
+                        [43, 3, 3],
+                        [45, 1, 1, 2],
+                        [46, 2, 9],
+                        [47, 1, 7, 2],
+
+                        [53, 1, 5, 2],
+                        [55, 2, 3, 2],
+                        [55, 5, 1, 2],
+
+                        [59, 6, 3, 2],
+                        [59, 2, 9],
+                        [63, 2, 5, 4],
+
+                        [67, 4, 3, 2],
+                        [68, 1, 5, 4],
+                        [68, 9, 9],
+                        [70, 4],
+
+                        [73, 2, 5, 5],
+
+                        [77, 4, 3, 2],
+                        [77, 9, 9],
+
+                        [85, 6, 7, 2],
+
+                        [124, 2, 10, 2],
+                        [142, 1, 7],
+                        [147, 5, 9],
+                        [156, 2, 6],
+
+                        [162, 10, 10, 3],
+                        [172, 9, 2, 8]
+                    ]
+                },
+                {
+                    "name": "bricks",
+                    "type": "PB",
+                    "ranges": [
+                        [152, 9]
+                    ]
+                },
+                {
+                    "name": "bricks",
+                    "type": "PC4",
+                    "ranges": [
+                        [30, 8]
+                    ]
+                },
+                {
+                    "animation": "chance",
+                    "type": "PC",
+                    "ranges": [
+                        [12, 4, 9]
+                    ]
+                },
+                {
+                    "animation": "chance",
+                    "type": "PB",
+                    "ranges": [
+                        [11, 9]
+                    ]
+                },
+                {
+                    "name": "chocolate",
+                    "type": "ground",
+                    "ranges": [
+                        [18, 12],
+                        [20, 9, 1, 2],
+                        [22, 3, 8, 1],
+                        [24, 9, 9, 2],
+                        [26, 9, 6, 4],
+                        [28, 9, 10, 5],
+                        [32, 9, 0, 3],
+                        [34, 5, 11, 2],
+
+                        [135, 8, 12],
+                        [136, 5, 11],
+                        [137, 9, 10],
+                        [138, 1, 9],
+
+                        [171, 9]
+                    ]
+                },
+                {
+                    "animation": "coin",
+                    "type": "coin",
+                    "ranges": [
+                        [64, 8],
+                        [31, 8, 2],
+                        [87, 6],
+                        [34, 3, 5],
+                        [87, 4],
+                        [12, 3, 2]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "pipe-3h",
+                    "ranges": [
+                        [105, 10]
+                    ]
+                },
+                {
+                    "pattern": "pipe-4h",
+                    "ranges": [
+                        [111, 9]
+                    ]
+                },
+                {
+                    "pattern": "pipe-2h",
+                    "ranges": [
+                        [117, 11]
+                    ]
+                },
+                {
+                    "pattern": "pipe-hor-2h",
+                    "ranges": [
+                        [168, 8]
+                    ]
+                },
+                {
+                    "name": "pipe-vert-left",
+                    "type": "ground",
+                    "ranges": [
+                        [170, 1, 2, 6] 
+                    ]
+                },
+                {
+                    "name": "pipe-vert-right",
+                    "type": "ground",
+                    "ranges": [
+                        [171, 1, 2, 8] 
+                    ]
+                },
+                {
+                    "name": "pipe-hor-up",
+                    "type": "ground",
+                    "ranges": [
+                        [170, 8]
+                    ]
+                },
+                {
+                    "name": "pipe-hor-down",
+                    "type": "ground",
+                    "ranges": [
+                        [170, 9]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "uGoomba",
+            "pos": [256, 64]
+        },
+        {
+            "name": "uGoomba",
+            "pos": [272, 192]
+        },
+        {
+            "name": "uGoomba",
+            "pos": [464, 64]
+        },
+        {
+            "name": "uKoopa",
+            "pos": [752, 76]
+        },
+        {
+            "name": "uKoopa",
+            "pos": [736, 32]
+        },
+        {
+            "name": "uPiranhaPlant",
+            "pos": [1688, 64]
+        },
+        {
+            "name": "uPiranhaPlant",
+            "pos": [1784, 64]
+        },
+        {
+            "name": "uPiranhaPlant",
+            "pos": [1880, 64]
+        },
+        {  
+            "name": "pipePortal",
+            "pos": [1684, 148],
+            "props": {
+                "dir": "DOWN",
+                "goesTo": {
+                    "name": "É-2-3"
+                },
+                "backTo": "outlet1"
+            }
+        },
+        {
+            "id": "outlet1",
+            "name": "pipePortal",
+            "pos": [1876, 172],
+            "props": {
+                "dir": "UP"
+            }
+        },
+        {  
+            "name": "pipePortal",
+            "pos": [2684, 132],
+            "props": {
+                "dir": "RIGHT",
+                "goesTo": {
+                    "name": "É-2-2"
+                }
+            }
+        }
+    ],
+    "checkpoints": [
+        {
+            "pos": [1808, 192]
+        }
+    ]
+}

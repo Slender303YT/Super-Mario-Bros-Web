@@ -1,0 +1,102 @@
+{
+    "spriteSheet": "underworld",
+    "musicSheet": "underworld",
+    "patternSheet": "underworld-pattern",
+    "leveldepth": 16,
+    "playerX": 24,
+    "playerY": 48,
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 16,
+                            0, 13
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [
+                            0, 16,
+                            13, 2
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "name": "bricks",
+                    "type": "ground",
+                    "ranges": [
+                        [0, 1, 2, 11],
+                        [3, 12, 2, 4],
+                        [13, 2, 6, 5],
+                        [3, 10, 9]
+                    ]
+                },
+                {
+                    "name": "bricks",
+                    "type": "PC",
+                    "ranges": [
+                        [12, 9]
+                    ]
+                },
+                {
+                    "animation": "coin",
+                    "type": "coin",
+                    "ranges": [
+                        [4, 8, 8],
+                        [3, 9, 12]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "pipe-hor-2h",
+                    "ranges": [
+                        [13, 11]
+                    ]
+                },
+                {
+                    "name": "pipe-vert-left",
+                    "type": "ground",
+                    "ranges": [
+                        [15, 1, 2, 9] 
+                    ]
+                },
+                {
+                    "name": "pipe-hor-up",
+                    "type": "ground",
+                    "ranges": [
+                        [15, 11]
+                    ]
+                },
+                {
+                    "name": "pipe-hor-down",
+                    "type": "ground",
+                    "ranges": [
+                        [15, 12]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "pipePortal",
+            "pos": [200, 184],
+            "props": {
+                "dir": "RIGHT"
+            }
+        }
+    ]
+}

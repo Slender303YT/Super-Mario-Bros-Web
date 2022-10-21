@@ -1,0 +1,118 @@
+{
+	"spriteSheet": "overworld",
+    "musicSheet": "overworld",
+    "patternSheet": "overworld-pattern",
+    "leveldepth": 212,
+    "playerX": 48,
+    "playerY": 192,
+    "layers": [
+        {
+        	"tiles": [
+        		{
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 212,
+                            0, 13
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [
+                            0, 212,
+                            13, 2
+                        ]
+                    ]
+                },
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [15, 2, 13, 2],
+                        [18, 1, 13, 2],
+                        [20, 1, 13, 2]
+                    ]
+                }
+        	]
+        },
+        {
+            "tiles": [
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [8, 7, 10, 3]
+                    ]
+                },
+                {
+                    "name": "chance",
+                    "type": "chanceCoin",
+                    "ranges": [
+                        [4, 10],
+                        [14, 3]
+                    ]
+                },
+                {
+                    "name": "chocolate",
+                    "type": "ground",
+                    "ranges": [
+                        [14, 1, 7, 3],
+                        [17, 1, 7, 6],
+                        [19, 1, 8, 5],
+                        [21, 1, 9, 4],
+                        [23, 1, 10, 3],
+                        [25, 1, 11, 2],
+                        [29, 1, 11, 2]
+                    ]
+                },
+                {
+                    "name": "bricks-top",
+                    "type": "brick",
+                    "ranges": [
+                        [2, 2, 10],
+                        [5, 10]
+                    ]
+                },
+                {
+                    "pattern": "cloud-single",
+                    "ranges": [
+                        [3, 2],
+                        [32, 2]
+                    ]
+                },
+                {
+                    "pattern": "cloud-two",
+                    "ranges": [
+                        [18, 3]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "cannon-2h",
+                    "ranges": [
+                        [10, 8]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "goomba",
+            "pos": [432, 192]
+        },
+        {
+            "name": "cannon",
+            "pos": [160, 128]
+        },
+        {
+            "name": "koopa",
+            "pos": [194, 128]
+        }
+    ]
+}
