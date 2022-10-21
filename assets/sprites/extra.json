@@ -1,0 +1,10 @@
+{
+	"imageURL": "assets/images/extras.png",
+
+	"frames": [
+		{
+			"name": "st",
+			"rect": [0, 0, 8, 8]
+		}
+	]
+}

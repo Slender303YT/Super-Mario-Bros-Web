@@ -1,0 +1,278 @@
+{
+    "spriteSheet": "underworld",
+    "musicSheet": "underworld",
+    "patternSheet": "underworld-pattern",
+    "leveldepth": 212,
+    "playerX": 48,
+    "playerY": 48,
+    "layers": [
+        {
+            "tiles": [
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [
+                            0, 212,
+                            0, 13
+                        ]
+                    ]
+                },
+                {
+                    "name": "ground",
+                    "type": "ground",
+                    "ranges": [
+                        [
+                            0, 212,
+                            13, 2
+                        ]
+                    ]
+                },
+                {
+                    "name": "sky",
+                    "ranges": [
+                        [81, 3, 13, 2],
+                        [122, 2, 13, 2],
+                        [126, 2, 13, 2],
+
+                        [140, 7, 13, 2],
+                        [155, 7, 13, 2]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "name": "bricks",
+                    "type": "brick",
+                    "ranges": [
+                        [6, 134, 2],
+                        [163, 7, 2],
+                        [0, 1, 2, 11],
+
+                        [40, 1, 7, 3],
+                        [41, 9],
+                        [42, 1, 7, 3],
+                        [43, 3, 7],
+                        [45, 1, 8, 2],
+                        [46, 2, 9],
+                        [47, 1, 7, 2],
+
+                        [53, 2, 5, 5],
+                        [55, 2, 3, 2],
+                        [55, 2, 9, 3],
+
+                        [59, 6, 3, 2],
+                        [59, 6, 9],
+                        [63, 2, 5, 4],
+
+                        [67, 4, 3, 2],
+                        [68, 1, 5, 4],
+                        [68, 3, 9],
+                        [70, 8],
+
+                        [73, 2, 5, 5],
+
+                        [77, 4, 3, 2],
+                        [77, 4, 9],
+
+                        [85, 6, 7, 2],
+
+                        [124, 2, 10, 3],
+                        [142, 4, 7],
+                        [147, 5, 9],
+                        [156, 5, 6],
+
+                        [162, 11, 10, 3],
+                        [172, 1, 2, 8]
+                    ]
+                },
+                {
+                    "name": "bricks",
+                    "type": "PB",
+                    "ranges": [
+                        [152, 9]
+                    ]
+                },
+                {
+                    "name": "bricks",
+                    "type": "PC4",
+                    "ranges": [
+                        [30, 8]
+                    ]
+                },
+                {
+                    "animation": "chance",
+                    "type": "PC",
+                    "ranges": [
+                        [12, 4, 9]
+                    ]
+                },
+                {
+                    "animation": "chance",
+                    "type": "PB",
+                    "ranges": [
+                        [11, 9]
+                    ]
+                },
+                {
+                    "name": "chocolate",
+                    "type": "ground",
+                    "ranges": [
+                        [18, 12],
+                        [20, 1, 11, 2],
+                        [22, 1, 10, 3],
+                        [24, 1, 9, 4],
+                        [26, 1, 9, 4],
+                        [28, 1, 10, 3],
+                        [32, 1, 10, 3],
+                        [34, 1, 11, 2],
+
+                        [135, 5, 12],
+                        [136, 4, 11],
+                        [137, 3, 10],
+                        [138, 2, 9],
+
+                        [171, 9]
+                    ]
+                },
+                {
+                    "animation": "coin",
+                    "type": "coin",
+                    "ranges": [
+                        [41, 8],
+                        [42, 4, 5],
+                        [46, 8],
+                        [59, 4, 8],
+                        [69, 8],
+                        [85, 6, 5]
+                    ]
+                }
+            ]
+        },
+        {
+            "tiles": [
+                {
+                    "pattern": "pipe-3h",
+                    "ranges": [
+                        [105, 10]
+                    ]
+                },
+                {
+                    "pattern": "pipe-4h",
+                    "ranges": [
+                        [111, 9]
+                    ]
+                },
+                {
+                    "pattern": "pipe-2h",
+                    "ranges": [
+                        [117, 11]
+                    ]
+                },
+                {
+                    "pattern": "pipe-hor-2h",
+                    "ranges": [
+                        [168, 8]
+                    ]
+                },
+                {
+                    "name": "pipe-vert-left",
+                    "type": "ground",
+                    "ranges": [
+                        [170, 1, 2, 6] 
+                    ]
+                },
+                {
+                    "name": "pipe-vert-right",
+                    "type": "ground",
+                    "ranges": [
+                        [171, 1, 2, 8] 
+                    ]
+                },
+                {
+                    "name": "pipe-hor-up",
+                    "type": "ground",
+                    "ranges": [
+                        [170, 8]
+                    ]
+                },
+                {
+                    "name": "pipe-hor-down",
+                    "type": "ground",
+                    "ranges": [
+                        [170, 9]
+                    ]
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "uGoomba",
+            "pos": [256, 192]
+        },
+        {
+            "name": "uGoomba",
+            "pos": [272, 192]
+        },
+        {
+            "name": "uGoomba",
+            "pos": [464, 192]
+        },
+        {
+            "name": "uKoopa",
+            "pos": [752, 192]
+        },
+        {
+            "name": "uKoopa",
+            "pos": [736, 192]
+        },
+        {
+            "name": "uPiranhaPlant",
+            "pos": [1688, 160]
+        },
+        {
+            "name": "uPiranhaPlant",
+            "pos": [1784, 144]
+        },
+        {
+            "name": "uPiranhaPlant",
+            "pos": [1880, 176]
+        },
+        {  
+            "name": "pipePortal",
+            "pos": [1684, 148],
+            "props": {
+                "dir": "DOWN",
+                "goesTo": {
+                    "name": "1-2-3"
+                },
+                "backTo": "outlet1"
+            }
+        },
+        {
+            "id": "outlet1",
+            "name": "pipePortal",
+            "pos": [1876, 172],
+            "props": {
+                "dir": "UP"
+            }
+        },
+        {  
+            "name": "pipePortal",
+            "pos": [2684, 132],
+            "props": {
+                "dir": "RIGHT",
+                "goesTo": {
+                    "name": "1-2-2"
+                }
+            }
+        }
+    ],
+    "checkpoints": [
+        {
+            "pos": [1808, 192]
+        }
+    ]
+}

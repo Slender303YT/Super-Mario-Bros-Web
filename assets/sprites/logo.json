@@ -1,0 +1,30 @@
+{
+	"imageURL": "assets/images/menuLogo.png",
+
+	"frames": [
+		{
+			"name": "logo-1",
+			"rect": [0, 0, 64, 64]
+		},
+		{
+			"name": "logo-2",
+			"rect": [64, 0, 64, 64]
+		},
+		{
+			"name": "logo-3",
+			"rect": [128, 0, 48, 64]
+		},
+		{
+			"name": "logo-4",
+			"rect": [0, 64, 64, 24]
+		},
+		{
+			"name": "logo-5",
+			"rect": [64, 64, 64, 24]
+		},
+		{
+			"name": "logo-6",
+			"rect": [128, 64, 48, 24]
+		}
+	]
+}

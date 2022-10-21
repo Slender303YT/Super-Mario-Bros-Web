@@ -1,0 +1,87 @@
+{
+	"imageURL": "assets/images/particles.png",
+
+	"frames": [
+		{
+			"name": "brickShrapnel-1",
+			"rect": [0, 0, 8, 8]
+		},
+		{
+			"name": "brickShrapnel-2",
+			"rect": [8, 0, 8, 8]
+		},
+		{
+			"name": "brickShrapnel-3",
+			"rect": [0, 8, 8, 8]
+		},
+		{
+			"name": "brickShrapnel-4",
+			"rect": [8, 8, 8, 8]
+		},
+		{
+			"name": "uBrickShrapnel-1",
+			"rect": [16, 0, 8, 8]
+		},
+		{
+			"name": "uBrickShrapnel-2",
+			"rect": [24, 0, 8, 8]
+		},
+		{
+			"name": "uBrickShrapnel-3",
+			"rect": [16, 8, 8, 8]
+		},
+		{
+			"name": "uBrickShrapnel-4",
+			"rect": [24, 8, 8, 8]
+		},
+		{
+			"name": "iBrickShrapnel-1",
+			"rect": [32, 0, 8, 8]
+		},
+		{
+			"name": "iBrickShrapnel-2",
+			"rect": [40, 0, 8, 8]
+		},
+		{
+			"name": "iBrickShrapnel-3",
+			"rect": [32, 8, 8, 8]
+		},
+		{
+			"name": "iBrickShrapnel-4",
+			"rect": [40, 8, 8, 8]
+		}
+	],
+
+	"animations": [
+		{
+			"name": "spinningBrick",
+			"frameLen": 0.15,
+			"frames": [
+				"brickShrapnel-1",
+				"brickShrapnel-2",
+				"brickShrapnel-3",
+				"brickShrapnel-4"
+			]
+		},
+		{
+			"name": "uSpinningBrick",
+			"frameLen": 0.15,
+			"frames": [
+				"uBrickShrapnel-1",
+				"uBrickShrapnel-2",
+				"uBrickShrapnel-3",
+				"uBrickShrapnel-4"
+			]
+		},
+		{
+			"name": "iSpinningBrick",
+			"frameLen": 0.15,
+			"frames": [
+				"iBrickShrapnel-1",
+				"iBrickShrapnel-2",
+				"iBrickShrapnel-3",
+				"iBrickShrapnel-4"
+			]
+		}
+	]
+}

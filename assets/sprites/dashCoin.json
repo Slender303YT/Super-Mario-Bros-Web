@@ -1,0 +1,78 @@
+{
+	"imageURL": "assets/images/dashboard.png",
+
+	"frames": [
+		{
+			"name": "coin-1",
+			"rect": [0, 0, 8, 8]
+		},
+		{
+			"name": "coin-2",
+			"rect": [8, 0, 8, 8]
+		},
+		{
+			"name": "coin-3",
+			"rect": [16, 0, 8, 8]
+		},
+		{
+			"name": "uCoin-1",
+			"rect": [0, 8, 8, 8]
+		},
+		{
+			"name": "uCoin-2",
+			"rect": [8, 8, 8, 8]
+		},
+		{
+			"name": "uCoin-3",
+			"rect": [16, 8, 8, 8]
+		},
+		{
+			"name": "iCoin-1",
+			"rect": [0, 16, 8, 8]
+		},
+		{
+			"name": "iCoin-2",
+			"rect": [8, 16, 8, 8]
+		},
+		{
+			"name": "iCoin-3",
+			"rect": [16, 16, 8, 8]
+		}
+	],
+
+	"animations": [
+		{
+			"name": "coinOverworld",
+			"frameLen": 0.12,
+			"frames": [
+				"coin-1",
+				"coin-1",
+				"coin-2",
+				"coin-3",
+				"coin-2"
+			]
+		},
+		{
+			"name": "coinUnderworld",
+			"frameLen": 0.12,
+			"frames": [
+				"uCoin-1",
+				"uCoin-1",
+				"uCoin-2",
+				"uCoin-3",
+				"uCoin-2"
+			]
+		},
+		{
+			"name": "coinIntocastle",
+			"frameLen": 0.12,
+			"frames": [
+				"iCoin-1",
+				"iCoin-1",
+				"iCoin-2",
+				"iCoin-3",
+				"iCoin-2"
+			]
+		}
+	]
+}

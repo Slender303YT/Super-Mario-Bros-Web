@@ -1,0 +1,25 @@
+{
+	"imageURL": "assets/images/entities.png",
+
+	"frames": [
+		{
+			"name": "close",
+			"rect": [160, 104, 16, 24]
+		},
+		{
+			"name": "open",
+			"rect": [176, 104, 16, 24]
+		}
+	],
+
+	"animations": [
+		{
+			"name": "chew",
+			"frameLen": 0.15,
+			"frames": [
+				"close",
+				"open"
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"imageURL": "assets/images/particles.png",
+
+	"frames": [
+		{
+			"name": "fireBall-1",
+			"rect": [0, 16, 8, 8]
+		},
+		{
+			"name": "fireBall-2",
+			"rect": [8, 16, 8, 8]
+		},
+		{
+			"name": "fireBall-3",
+			"rect": [0, 24, 8, 8]
+		},
+		{
+			"name": "fireBall-4",
+			"rect": [8, 24, 8, 8]
+		},
+		{
+			"name": "bubble",
+			"rect": [16, 16, 8, 8]
+		}
+	],
+
+	"animations": [
+		{
+			"name": "spinningFireBall",
+			"frameLen": 0.15,
+			"frames": [
+				"fireBall-1",
+				"fireBall-2",
+				"fireBall-3",
+				"fireBall-4"
+			]
+		}
+	]
+}

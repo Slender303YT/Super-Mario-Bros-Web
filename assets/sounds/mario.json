@@ -1,0 +1,28 @@
+{
+	"fx": {
+		"coin": {
+			"url": "assets/audio/fx/coin.ogg"
+		},
+		"1up": {
+			"url": "assets/audio/fx/1up.ogg"
+		},
+		"jump": {
+			"url": "assets/audio/fx/jump.ogg"
+		},
+		"stomp": {
+			"url": "assets/audio/fx/stomp.ogg"
+		},
+		"die": {
+			"url": "assets/audio/music/die.ogg"
+		},
+		"powerup-consume": {
+			"url": "assets/audio/fx/power-up-consume.ogg"
+		},
+		"powerup-appears": {
+			"url": "assets/audio/fx/power-up-appears.ogg"
+		},
+		"pipe-enter": {
+			"url": "assets/audio/fx/pipe.ogg"
+		}
+	}
+}

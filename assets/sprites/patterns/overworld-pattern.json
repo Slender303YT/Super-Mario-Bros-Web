@@ -1,0 +1,599 @@
+{
+    "cloud-single": {
+        "tiles": [
+            {
+                "name": "cloud-1-1",
+                "ranges": [[0, 0]]
+            },
+            {
+                "name": "cloud-1-2",
+                "ranges": [[1, 0]]
+            },
+            {
+                "name": "cloud-1-3",
+                "ranges": [[2, 0]]
+            },
+            {
+                "name": "cloud-2-1",
+                "ranges": [[0, 1]]
+            },
+            {
+                "name": "cloud-2-2",
+                "ranges": [[1, 1]]
+            },
+            {
+                "name": "cloud-2-3",
+                "ranges": [[2, 1]]
+            }
+        ]
+    },
+    "cloud-two": {
+        "tiles": [
+            {
+                "name": "cloud-1-1",
+                "ranges": [[0, 0]]
+            },
+            {
+                "name": "cloud-1-2",
+                "ranges": [[1, 0]]
+            },
+            {
+                "name": "cloud-2-1",
+                "ranges": [[0, 1]]
+            },
+            {
+                "name": "cloud-2-2",
+                "ranges": [[1, 1]]
+            },
+            {
+                "name": "cloud-1-2",
+                "ranges": [[2, 0]]
+            },
+            {
+                "name": "cloud-2-2",
+                "ranges": [[2, 1]]
+            },
+            {
+                "name": "cloud-1-3",
+                "ranges": [[3, 0]]
+            },
+            {
+                "name": "cloud-2-3",
+                "ranges": [[3, 1]]
+            }
+        ]
+    },
+    "cloud-three": {
+        "tiles": [
+            {
+                "name": "cloud-1-1",
+                "ranges": [[0, 0]]
+            },
+            {
+                "name": "cloud-1-2",
+                "ranges": [[1, 0]]
+            },
+            {
+                "name": "cloud-2-1",
+                "ranges": [[0, 1]]
+            },
+            {
+                "name": "cloud-2-2",
+                "ranges": [[1, 1]]
+            },
+            {
+                "name": "cloud-1-2",
+                "ranges": [[2, 0]]
+            },
+            {
+                "name": "cloud-2-2",
+                "ranges": [[2, 1]]
+            },
+            {
+                "name": "cloud-1-2",
+                "ranges": [[3, 0]]
+            },
+            {
+                "name": "cloud-2-2",
+                "ranges": [[3, 1]]
+            },
+            {
+                "name": "cloud-1-3",
+                "ranges": [[4, 0]]
+            },
+            {
+                "name": "cloud-2-3",
+                "ranges": [[4, 1]]
+            }
+        ]
+    },
+    "pipe-section-vert": {
+        "tiles": [
+            {
+                "name": "pipe-vert-left",
+                "type": "ground",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "pipe-vert-right",
+                "type": "ground",
+                "ranges": [
+                    [1, 0]
+                ]
+            }
+        ]
+    },
+    "pipe-cap-vert": {
+        "tiles": [
+            {
+                "name": "pipe-insert-vert-left",
+                "type": "ground",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "pipe-insert-vert-right",
+                "type": "ground",
+                "ranges": [
+                    [1, 0]
+                ]
+            }
+        ]
+    },
+    "pipe-2h": {
+        "tiles": [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [0, 1, 1, 1]
+                ]
+            }
+        ]
+    },
+    "pipe-3h": {
+        "tiles": [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [0, 1, 1, 2]
+                ]
+            }
+        ]
+    },
+    "pipe-4h": {
+        "tiles": [
+            {
+                "pattern": "pipe-cap-vert",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "pattern": "pipe-section-vert",
+                "ranges": [
+                    [0, 1, 1, 3]
+                ]
+            }
+        ]
+    },
+    "goal-down": {
+        "tiles": [
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 2]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 3]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 4]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 5]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 6]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 7]
+                ]
+            },
+            {
+                "name": "goal",
+                "type": "goal",
+                "ranges": [
+                    [0, 8]
+                ]
+            }
+        ]
+    },
+    "goal": {
+        "tiles": [
+            {
+                "name": "sky",
+                "type": "goal",
+                "ranges": [
+                    [0, 0],
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "goal-up",
+                "type": "goal",
+                "ranges": [
+                    [0, 2]
+                ]
+            },
+            {
+                "pattern": "goal-down",
+                "ranges": [
+                    [0, 3]
+                ]
+            }
+        ]
+    },
+    "castle": {
+        "tiles": [
+            {
+                "name": "castle-1",
+                "ranges": [
+                    [0, 2],
+                    [1, 0],
+                    [2, 0],
+                    [3, 0],
+                    [4, 2]
+                ]
+            },
+            {
+                "name": "castle-2",
+                "ranges": [
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "castle-3",
+                "ranges": [
+                    [2, 1],
+                    [1, 4],
+                    [1, 3]
+                ]
+            },
+            {
+                "name": "castle-4",
+                "ranges": [
+                    [3, 1]
+                ]
+            },
+            {
+                "name": "castle-5",
+                "ranges": [
+                    [1, 2],
+                    [2, 2],
+                    [3, 2]
+                ]
+            },
+            {
+                "name": "castle-6",
+                "ranges": [
+                    [2, 3]
+                ]
+            },
+            {
+                "name": "castle-7",
+                "ranges": [
+                    [2, 4]
+                ]
+            },
+            {
+                "name": "bricks",
+                "ranges": [
+                    [0, 3],
+                    [0, 4],
+                    [3, 3],
+                    [3, 4],
+                    [4, 3],
+                    [4, 4]
+                ]
+            }
+        ]
+    },
+    "big-castle": {
+        "tiles": [
+            {
+                "pattern": "castle",
+                "ranges": [
+                    [2, 0]
+                ]
+            },
+            {
+                "name": "castle-1",
+                "ranges": [
+                    [0, 2, 5],
+                    [7, 2, 5]
+                ]
+            },
+            {
+                "name": "castle-5",
+                "ranges": [
+                    [2, 5, 5]
+                ]
+            },
+            {
+                "name": "castle-6",
+                "ranges": [
+                    [3, 6],
+                    [5, 6],
+                    [2, 9],
+                    [4, 9],
+                    [6, 9]
+                ]
+            },
+            {
+                "name": "castle-7",
+                "ranges": [
+                    [3, 7],
+                    [5, 7],
+                    [2, 10],
+                    [4, 10],
+                    [6, 10]
+                ]
+            },
+            {
+                "name": "bricks",
+                "ranges": [
+                    [0, 2, 6, 5],
+                    [2, 1, 6, 3],
+                    [4, 1, 6, 3],
+                    [6, 1, 6, 3],
+                    [3, 1, 8, 3],
+                    [5, 1, 8, 3],
+                    [7, 2, 6, 5]
+                ]
+            }
+        ]
+    },
+    "cannon-2h": {
+        "tiles": [
+            {
+                "name": "cannon-1",
+                "type": "ground",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "cannon-3",
+                "type": "ground",
+                "ranges": [
+                    [0, 1]
+                ]
+            }
+        ]
+    },
+    "plant1-big": {
+        "tiles": [
+            {
+                "name": "plant1-1",
+                "ranges": [
+                    [0, 2],
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "plant1-2",
+                "ranges": [
+                    [1, 2],
+                    [2, 1]
+                ]
+            },
+            {
+                "name": "plant1-3",
+                "ranges": [
+                    [2, 0]
+                ]
+            },
+            {
+                "name": "plant1-4",
+                "ranges": [
+                    [2, 2]
+                ]
+            },
+            {
+                "name": "plant1-5",
+                "ranges": [
+                    [3, 1],
+                    [4, 2]
+                ]
+            },
+            {
+                "name": "plant1-6",
+                "ranges": [
+                    [3, 2]
+                ]
+            }
+        ]
+    },
+    "plant1-tiny": {
+        "tiles": [
+            {
+                "name": "plant1-1",
+                "ranges": [
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "plant1-2",
+                "ranges": [
+                    [1, 1]
+                ]
+            },
+            {
+                "name": "plant1-3",
+                "ranges": [
+                    [1, 0]
+                ]
+            },
+            {
+                "name": "plant1-5",
+                "ranges": [
+                    [2, 1]
+                ]
+            }
+        ]
+    },
+    "plant2": {
+        "tiles": [
+            {
+                "name": "plant2-1",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "plant2-2",
+                "ranges": [
+                    [1, 0]
+                ]
+            },
+            {
+                "name": "plant2-3",
+                "ranges": [
+                    [2, 0]
+                ]
+            }
+        ]
+    },
+    "plant2-2w": {
+        "tiles": [
+            {
+                "name": "plant2-1",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "plant2-2",
+                "ranges": [
+                    [1, 2, 0]
+                ]
+            },
+            {
+                "name": "plant2-3",
+                "ranges": [
+                    [3, 0]
+                ]
+            }
+        ]
+    },
+    "plant2-3w": {
+        "tiles": [
+            {
+                "name": "plant2-1",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "plant2-2",
+                "ranges": [
+                    [1, 3, 0]
+                ]
+            },
+            {
+                "name": "plant2-3",
+                "ranges": [
+                    [4, 0]
+                ]
+            }
+        ]
+    },
+    "plant3": {
+        "tiles": [
+            {
+                "name": "plant3-1",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "plant3-4",
+                "ranges": [
+                    [0, 1]
+                ]
+            }
+        ]
+    },
+    "plant4": {
+        "tiles": [
+            {
+                "name": "plant3-2",
+                "ranges": [
+                    [0, 0]
+                ]
+            },
+            {
+                "name": "plant3-3",
+                "ranges": [
+                    [0, 1]
+                ]
+            },
+            {
+                "name": "plant3-4",
+                "ranges": [
+                    [0, 2]
+                ]
+            }
+        ]
+    }
+}
