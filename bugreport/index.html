@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Super Mario Bros Web - Bug Report</title>
+	<meta name="title" content="Super Mario Bros Web">
+	<meta name="author" content="Slender303YT, josebarriav2011@gmail.com">
+	<meta name="description" content="A Super Mario Bros Remake in javascript, NEW UPDATE Update Alpha 1.11">
+	<meta name="copyright" content="Nintendo">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+	<style type="text/css">
+		* {
+			user-select: none;
+		}
+
+		body {
+			margin: 0;
+			font-family: sans-serif;
+			image-rendering: pixelated;
+			background: url("../assets/images/background.png");
+		}
+
+		.button {
+			display: block;
+			margin: auto;
+			text-decoration-style: none;
+			text-align: center;
+			width: 128px;
+			height: 32px;
+			border: 2px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="uploadingText" style="color: #FFF; display: none; position: absolute; ">Uploading....</h1>
+	<form action="../assets/php/uploadBugReport.php" id="Form1Id" method="POST" style="display: block; width: 256px; height: 256px; border: 2px solid #000; background-color: #33F; position: absolute;">
+		<br>
+		<textarea id="bugReport" name="bugReport" form="Form1Id" placeholder="Bug Report" style="display: block; margin: auto; resize: none; border: 2px solid #000; "></textarea>
+		<br>
+		<button class="button" id="reportButton" style="background-color: #ff3627"><a href="../" style="text-decoration: none; color: #000"><h4 style="margin-top: 7px; text-decoration: none; color: #000">Report</h4></a></button>
+		<br>
+		<button class="button" style="background-color: #ffe717"><a href="../" style="text-decoration: none; color: #000"><h4 style="margin-top: 7px; text-decoration: none; color: #000">Back</h4></a></button>
+	</form>
+	<script type="text/javascript">
+		document.getElementById("Form1Id").style.left = window.innerWidth / 2 - 128 + "px";
+		document.getElementById("Form1Id").style.top = window.innerHeight / 2 - 140 + "px";
+		document.getElementById("uploadingText").style.left = window.innerWidth / 2 - 90 + "px";
+		document.getElementById("uploadingText").style.top = window.innerHeight / 2 - 90 + "px";
+		const showUploading = () => {
+			document.getElementById("reportButton").removeEventListener("click", showUploading);
+			document.getElementById("uploadingText").style.display = "inline-block";
+		};
+		document.getElementById("reportButton").addEventListener("click", showUploading);
+	</script>
+</body>
+</html>

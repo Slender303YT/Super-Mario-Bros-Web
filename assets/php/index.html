@@ -1,0 +1,11 @@
+<h1>Nothing to see here......</h1>
+<script type="text/javascript">
+	if(localStorage.getItem("secret") === false) {
+		setInterval(() => {
+			localStorage.setItem("secret", true);
+			location.href = "../../";
+		}, 5000);
+	} else {
+		location.href = "../../";
+	}
+</script>
