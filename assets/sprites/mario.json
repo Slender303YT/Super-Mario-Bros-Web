@@ -1,0 +1,352 @@
+{
+	"imageURL": "assets/images/entities.png",
+
+	"frames": [
+		{
+			"name": "idleTiny",
+			"rect": [0, 0, 16, 16]
+		},
+		{
+			"name": "runTiny-1",
+			"rect": [16, 0, 16, 16]
+		},
+		{
+			"name": "runTiny-2",
+			"rect": [32, 0, 16, 16]
+		},
+		{
+			"name": "runTiny-3",
+			"rect": [48, 0, 16, 16]
+		},
+		{
+			"name": "breakTiny",
+			"rect": [64, 0, 16, 16]
+		},
+		{
+			"name": "jumpTiny",
+			"rect": [80, 0, 16, 16]
+		},
+		{
+			"name": "idleTinyStar-1",
+			"rect": [256, 0, 16, 16]
+		},
+		{
+			"name": "runTinyStar-1-1",
+			"rect": [272, 0, 16, 16]
+		},
+		{
+			"name": "runTinyStar-2-1",
+			"rect": [288, 0, 16, 16]
+		},
+		{
+			"name": "runTinyStar-3-1",
+			"rect": [304, 0, 16, 16]
+		},
+		{
+			"name": "breakTinyStar-1",
+			"rect": [320, 0, 16, 16]
+		},
+		{
+			"name": "jumpTinyStar-1",
+			"rect": [336, 0, 16, 16]
+		},
+		{
+			"name": "idleTinyStar-2",
+			"rect": [256, 16, 16, 16]
+		},
+		{
+			"name": "runTinyStar-1-2",
+			"rect": [272, 16, 16, 16]
+		},
+		{
+			"name": "runTinyStar-2-2",
+			"rect": [288, 16, 16, 16]
+		},
+		{
+			"name": "runTinyStar-3-2",
+			"rect": [304, 16, 16, 16]
+		},
+		{
+			"name": "breakTinyStar-2",
+			"rect": [320, 16, 16, 16]
+		},
+		{
+			"name": "jumpTinyStar-2",
+			"rect": [336, 16, 16, 16]
+		},
+		{
+			"name": "idleTinyStar-3",
+			"rect": [256, 32, 16, 16]
+		},
+		{
+			"name": "runTinyStar-1-3",
+			"rect": [272, 32, 16, 16]
+		},
+		{
+			"name": "runTinyStar-2-3",
+			"rect": [288, 32, 16, 16]
+		},
+		{
+			"name": "runTinyStar-3-3",
+			"rect": [304, 32, 16, 16]
+		},
+		{
+			"name": "breakTinyStar-3",
+			"rect": [320, 32, 16, 16]
+		},
+		{
+			"name": "jumpTinyStar-3",
+			"rect": [336, 32, 16, 16]
+		},
+		{
+			"name": "dead",
+			"rect": [96, 0, 16, 16]
+		},
+		{
+			"name": "idle",
+			"rect": [0, 16, 16, 32]
+		},
+		{
+			"name": "run-1",
+			"rect": [16, 16, 16, 32]
+		},
+		{
+			"name": "run-2",
+			"rect": [32, 16, 16, 32]
+		},
+		{
+			"name": "run-3",
+			"rect": [48, 16, 16, 32]
+		},
+		{
+			"name": "break",
+			"rect": [64, 16, 16, 32]
+		},
+		{
+			"name": "jump",
+			"rect": [80, 16, 16, 32]
+		},
+		{
+			"name": "tinyScalling-1",
+			"rect": [112, 0, 16, 16]
+		},
+		{
+			"name": "tinyScalling-2",
+			"rect": [128, 0, 16, 16]
+		},
+		{
+			"name": "scalling-1",
+			"rect": [112, 16, 16, 32]
+		},
+		{
+			"name": "scalling-2",
+			"rect": [128, 16, 16, 32]
+		},
+		{
+			"name": "shifting",
+			"rect": [96, 16, 16, 32]
+		},
+		{
+			"name": "idleStar-1",
+			"rect": [256, 48, 16, 32]
+		},
+		{
+			"name": "runStar-1-1",
+			"rect": [272, 48, 16, 32]
+		},
+		{
+			"name": "runStar-2-1",
+			"rect": [288, 48, 16, 32]
+		},
+		{
+			"name": "runStar-3-1",
+			"rect": [304, 48, 16, 32]
+		},
+		{
+			"name": "breakStar-1",
+			"rect": [320, 48, 16, 32]
+		},
+		{
+			"name": "jumpStar-1",
+			"rect": [336, 48, 16, 32]
+		},
+		{
+			"name": "idleStar-2",
+			"rect": [256, 60, 16, 32]
+		},
+		{
+			"name": "runStar-1-2",
+			"rect": [272, 60, 16, 32]
+		},
+		{
+			"name": "runStar-2-2",
+			"rect": [288, 60, 16, 32]
+		},
+		{
+			"name": "runStar-3-2",
+			"rect": [304, 60, 16, 32]
+		},
+		{
+			"name": "breakStar-2",
+			"rect": [320, 60, 16, 32]
+		},
+		{
+			"name": "jumpStar-2",
+			"rect": [336, 60, 16, 32]
+		},
+		{
+			"name": "shiftingStar-1",
+			"rect": [352, 48, 16, 32]
+		},
+		{
+			"name": "shiftingStar-2",
+			"rect": [352, 80, 16, 32]
+		},
+		{
+			"name": "idleFire",
+			"rect": [0, 48, 16, 32]
+		},
+		{
+			"name": "runFire-1",
+			"rect": [16, 48, 16, 32]
+		},
+		{
+			"name": "runFire-2",
+			"rect": [32, 48, 16, 32]
+		},
+		{
+			"name": "runFire-3",
+			"rect": [48, 48, 16, 32]
+		},
+		{
+			"name": "breakFire",
+			"rect": [64, 48, 16, 32]
+		},
+		{
+			"name": "jumpFire",
+			"rect": [80, 48, 16, 32]
+		},
+		{
+			"name": "shiftingFire",
+			"rect": [96, 48, 16, 32]
+		}
+	],
+
+	"animations": [
+		{
+			"name": "runTiny",
+			"frameLen": 6,
+			"frames": [
+				"runTiny-1",
+				"runTiny-2",
+				"runTiny-3"
+			]
+		},
+		{
+			"name": "run",
+			"frameLen": 6,
+			"frames": [
+				"run-1",
+				"run-2",
+				"run-3"
+			]
+		},
+		{
+			"name": "runTinyStar",
+			"frameLen": 0.12,
+			"frames": [
+				"runTinyStar-1-1",
+				"runTinyStar-2-2",
+				"runTinyStar-3-3"
+			]
+		},
+		{
+			"name": "jumpTinyStar",
+			"frameLen": 0.12,
+			"frames": [
+				"jumpTinyStar-1",
+				"jumpTinyStar-2",
+				"jumpTinyStar-3"
+			]
+		},
+		{
+			"name": "breakTinyStar",
+			"frameLen": 0.12,
+			"frames": [
+				"breakTinyStar-1",
+				"breakTinyStar-2",
+				"breakTinyStar-3"
+			]
+		},
+		{
+			"name": "idleTinyStar",
+			"frameLen": 0.12,
+			"frames": [
+				"idleTinyStar-1",
+				"idleTinyStar-2",
+				"idleTinyStar-3"
+			]
+		},
+		{
+			"name": "tinyScalling",
+			"frameLen": 0.12,
+			"frames": [
+				"tinyScalling-1",
+				"tinyScalling-2"
+			]
+		},
+		{
+			"name": "scalling",
+			"frameLen": 0.12,
+			"frames": [
+				"scalling-1",
+				"scalling-2"
+			]
+		},
+		{
+			"name": "runStar",
+			"frameLen": 0.12,
+			"frames": [
+				"runStar-1-1",
+				"runStar-2-2",
+				"runFire"
+			]
+		},
+		{
+			"name": "jumpStar",
+			"frameLen": 0.12,
+			"frames": [
+				"jumpStar-1",
+				"jumpStar-2",
+				"jumpFire"
+			]
+		},
+		{
+			"name": "breakStar",
+			"frameLen": 0.12,
+			"frames": [
+				"breakStar-1",
+				"breakStar-2",
+				"breakFire"
+			]
+		},
+		{
+			"name": "idleStar",
+			"frameLen": 0.12,
+			"frames": [
+				"idleStar-1",
+				"idleStar-2",
+				"idleFire"
+			]
+		},
+		{
+			"name": "shiftingStar",
+			"frameLen": 0.12,
+			"frames": [
+				"shiftingStar-1",
+				"shiftingStar-2",
+				"shiftingFire"
+			]
+		}
+	]
+}

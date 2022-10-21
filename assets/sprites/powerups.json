@@ -1,0 +1,44 @@
+{
+	"imageURL": "assets/images/powerups.png",
+	"frames": [
+		{
+			"name": "powerup1",
+			"rect": [0, 0, 16, 16]
+		},
+		{
+			"name": "1up",
+			"rect": [16, 0, 16, 16]
+		},
+		{
+			"name": "star-1",
+			"rect": [0, 48, 16, 16]
+		},
+		{
+			"name": "star-2",
+			"rect": [16, 48, 16, 16]
+		},
+		{
+			"name": "star-3",
+			"rect": [32, 48, 16, 16]
+		},
+		{
+			"name": "star-4",
+			"rect": [48, 48, 16, 16]
+		}
+	],
+
+	"animations": [
+		{
+			"name": "star",
+			"frameLen": 0.11,
+			"frames": [
+				"star-1",
+				"star-2",
+				"star-3",
+				"star-4",
+				"star-3",
+				"star-2"
+			]
+		}
+	]
+}

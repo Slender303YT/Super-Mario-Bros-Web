@@ -1,0 +1,11 @@
+{
+	"main": {
+		"url": "assets/audio/music/underwater.ogg"
+	},
+	"hurry": {
+		"url": "assets/audio/music/hurry.ogg"
+	},
+	"star": {
+		"url": "assets/audio/music/starman.ogg"
+	}
+}

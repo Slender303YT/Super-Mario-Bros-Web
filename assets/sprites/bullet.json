@@ -1,0 +1,10 @@
+{
+	"imageURL": "assets/images/entities.png",
+
+	"frames": [
+		{
+			"name": "bullet",
+			"rect": [208, 97, 16, 14]
+		}
+	]
+}

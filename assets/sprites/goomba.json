@@ -1,0 +1,29 @@
+{
+	"imageURL": "assets/images/entities.png",
+
+	"frames": [
+		{
+			"name": "walk-1",
+			"rect": [0, 80, 16, 16]
+		},
+		{
+			"name": "walk-2",
+			"rect": [16, 80, 16, 16]
+		},
+		{
+			"name": "flat",
+			"rect": [32, 80, 16, 16]
+		}
+	],
+
+	"animations": [
+		{
+			"name": "walk",
+			"frameLen": 0.15,
+			"frames": [
+				"walk-1",
+				"walk-2"
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"imageURL": "assets/images/tiles2.png",
+	"tileW": 48,
+	"tileH": 8,
+
+	"tiles": [
+		{
+			"name": "platform",
+			"index": [0, 0]
+		}
+	]
+}
